@@ -1,0 +1,10 @@
+.header{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.header-content{
+   color: white;
+   padding-top: 200px;
+}

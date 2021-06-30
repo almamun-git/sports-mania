@@ -1,22 +1,32 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import './LeagueCards.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { useHistory } from 'react-router-dom';
+
 
 const LeagueCards = (props) => {
-    const {strLeague, strSport} = props.league;
+    let history = useHistory();
+
+    const {strLeague, strSport, img, idLeague} = props.league;
+
+    function handleExploreBtn(leagueDetails){
+        history.push(`/league/${leagueDetails}`)
+    }
+
     return (
-        <Card className = 'cards'>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-        </Card>
-        
+            <Card className = "card">
+                <div className = 'cardImg'>
+                    <Card.Img variant="top" src={img} />
+                </div>
+                
+                <Card.Body>
+                    <Card.Title>{strLeague}</Card.Title>
+                    <p><small>Type: {strSport}</small></p>
+                    <Button onClick = {()=> handleExploreBtn(idLeague)}>Explore <FontAwesomeIcon icon={faArrowRight} /></Button>
+                </Card.Body>
+            </Card>
     );
 };
 

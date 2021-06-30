@@ -1,5 +1,24 @@
-
-.allCards{
-    background-color: teal;
-    width: 18rem;
+.card{
+    float: left;
+    margin: 25px;
+    width: 20rem;
+    text-align: center;
+    /* height: 20rem; */
+}
+.cardImg{
+    height: 150px;
+    /* width: 20rem; */
+    /* width: auto; */
+}
+.cardImg Img{
+    padding: 10px;
+    height: 90%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    /* width: auto; */
+    /* overflow: hidden; */
+}
+.card Button{
+    background-color: #3A42FF;
 }

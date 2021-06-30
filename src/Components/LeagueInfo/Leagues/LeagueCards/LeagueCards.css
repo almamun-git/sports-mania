@@ -22,3 +22,6 @@
 .card Button{
     background-color: #3A42FF;
 }
+.card button:hover{
+    background-color: #3A42FF;
+}

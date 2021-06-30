@@ -1,10 +1,7 @@
-.header{
+.ClubHeader{
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }
-.header-content{
-    color: #131397;
-    padding-top: 200px;
-}
+

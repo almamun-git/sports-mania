@@ -1,0 +1,18 @@
+.teamBodyPart{
+    background-color: #0E0A2A;
+    height: 1500px;
+}
+.container p{
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.fontawsome{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #0E0A2A;
+    padding-bottom: 50px;
+}
+.icon{
+    margin-left: 30px;
+}

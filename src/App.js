@@ -5,8 +5,7 @@ import { Navbar, Form, FormControl } from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import LeagueDetails from './Components/LeagueInfo/LeagueDetails/LeagueDetails';
 import ClubRender from './Components/ClubInfo/ClubRender/ClubRender';

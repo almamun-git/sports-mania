@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-icons';
 import male from '../../../photos/LeaugeDetails/male.png';
 import female from '../../../photos/LeaugeDetails/female.png';
-import { fab, faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
 

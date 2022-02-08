@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom';
 
 
 const CLubCard = (props) => {
-    const {strAlternate, strTeamLogo, strSport, idTeam} = props.team;
+    const {strLeague, strTeamLogo, strTeam, idTeam} = props.team;
     let history = useHistory();
 
     function handleTeamExploreBtn(id){
@@ -22,8 +22,8 @@ const CLubCard = (props) => {
                 </div>
                 
                 <Card.Body>
-                    <Card.Title>{strAlternate}</Card.Title>
-                    <p><small>Type: {strSport}</small></p>
+                    <Card.Title>{strTeam}</Card.Title>
+                    <p><small>Type: {strLeague}</small></p>
                     <Button onClick = {()=> handleTeamExploreBtn(idTeam)}>Explore <FontAwesomeIcon icon={faArrowRight} /></Button>
                 </Card.Body>
             </Card>

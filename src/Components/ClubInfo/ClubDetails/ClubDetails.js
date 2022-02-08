@@ -27,10 +27,9 @@ const ClubDetails = () => {
 
     let strCountry, strGender, strSport, strTeamLogo, strAlternate, strDescriptionEN, strStadiumDescription;
     if(team.teams){
-        strCountry = team.teams[0].strCountry;
-        strGender = team.teams[0].strGender;
-        strSport = team.teams[0].strSport;
-        strTeamLogo = team.teams[0].strTeamLogo;
+        
+        strSport = team.sports[0].strSport;
+        strTeamLogo = team.sports[0].strSportThumb;
         strAlternate = team.teams[0].strAlternate;
         strDescriptionEN = team.teams[0].strDescriptionEN;
         strStadiumDescription = team.teams[0].strStadiumDescription;

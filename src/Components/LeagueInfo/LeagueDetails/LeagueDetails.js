@@ -35,6 +35,7 @@ const LeagueDetails = () => {
         strGender  = league.leagues[0].strGender;
         strLogo  = league.leagues[0].strLogo;
     }
+    console.log(strLeague, dateFirstEvent, strCountry, strGender, strSport)
 
     let bannerImage;
     

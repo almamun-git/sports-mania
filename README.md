@@ -1,4 +1,4 @@
-this project shows the leagues amd clubs informations
+this project shows the leagues and clubs informations
 
 
 #used Rest Api for fetching information
